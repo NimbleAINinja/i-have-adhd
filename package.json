@@ -5,12 +5,21 @@
   "license": "MIT",
   "homepage": "https://github.com/ayghri/i-have-adhd",
   "private": true,
-  "keywords": ["pi-package"],
+  "main": ".opencode/plugins/i-have-adhd.mjs",
+  "keywords": [
+    "pi-package"
+  ],
   "omp": {
-    "extensions": ["./extensions/i-have-adhd.ts"]
+    "extensions": [
+      "./extensions/i-have-adhd.ts"
+    ]
   },
   "pi": {
-    "extensions": ["./extensions/i-have-adhd.ts"],
-    "skills": ["./skills"]
+    "extensions": [
+      "./extensions/i-have-adhd.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
   }
 }
